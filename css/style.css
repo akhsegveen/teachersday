@@ -167,12 +167,14 @@ div.card img {
 div.card .card__image-holder {
   background-color: rgb(255, 243, 249);
   height: 0;
-  padding-bottom: 48%;
+  padding-bottom: 170px;
+  
 }
 
 div.card div.card__image-holder .card__image {
- max-width: 200px;
- padding-left: 30%;
+ max-width: 150px;
+ margin: 0px auto;
+ 
 }
 div.card div.card-title {
   border-radius: 10px;
@@ -285,13 +287,13 @@ div.card.show div.flap1 {
 }
 @media (max-width: 420px) {
   div.card {
-    max-width: 250px;
+    max-width: 300px;
   }
   div.card img {
-    max-width: 250px;
+    max-width: 150px;
   }
   div.card div.card-title div.card-title-h2 {
-    max-width: 150px;
+    max-width: 250px;
   }
 }
 
